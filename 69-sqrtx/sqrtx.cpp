@@ -1,5 +1,6 @@
 class Solution {
 public:
+//niki
     int mySqrt(int x) {
         unsigned l = 1;
     unsigned r = x + 1u;
