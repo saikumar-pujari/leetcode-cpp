@@ -6,10 +6,11 @@ public:
        int profit=0;
        for(int i=0;i<prices.size();i++){
         int sum=prices[i]-mini;
+         mini=min(mini,prices[i]);
         profit=max(sum,profit);
-        mini=min(mini,prices[i]);
-       } 
        
+       } 
+
        return profit;
     }
 };
