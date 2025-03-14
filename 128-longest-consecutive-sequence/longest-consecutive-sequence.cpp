@@ -13,7 +13,6 @@ public:
             best = max(best, j - num);
         }
     }
-
     return best;
     }
 };
