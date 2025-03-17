@@ -6,6 +6,7 @@ public:
         s.insert(num);
         if (s.size() > 3) s.erase(s.begin()); // Keep only top 3
     }
+    
     return (s.size() == 3) ? *s.begin() : *s.rbegin();
     }
 };
