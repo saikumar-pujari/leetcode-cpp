@@ -14,5 +14,12 @@ public:
 
         }
         return ans;
-    }
+    }//         ----BETTER APPROCH--O(N)---
+    //         vector<int>row(numRows+1,1);
+      //       long long val=1;
+       //      for(int col=1;col<numRows;col++){
+         //    val=(val*(numRows-col+1))/(col);
+           // row[col]=val;
+       //      }
+        //    return row;
 };
