@@ -1,2 +1,2 @@
-            if(pair.second>1){
+        }return ans;
 
